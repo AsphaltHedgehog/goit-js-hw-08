@@ -2,22 +2,23 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://asphalthedgehog.github.io/goit-js-hw-08/",
+  "homepage": "https://AsphaltHedgehog.github.io/goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url https://github.com/AsphaltHedgehog/goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AsphaltHedgehog/goit-js-hw-08/"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
   },
   "keywords": [],
-  "author": "Sergey Kolodiazhniy <svouap@gmail.com>",
+  "author": "Sergey Kolodizhniy <--->",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AsphaltHedgehog/goit-js-hw-08/issues"
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "@vimeo/player": "^2.20.1",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.14.2"
   },
