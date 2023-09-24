@@ -26,7 +26,7 @@ player.setCurrentTime(localStorage.getItem(refs.CURRENT_TIME) || 0);
 
 // =====================================================
 
-player.getEnded().then(ev => 
-  localStorage.removeItem(refs.CURRENT_TIME))
+// player.getEnded().then(ev => 
+//   localStorage.removeItem(refs.CURRENT_TIME))
 
 
