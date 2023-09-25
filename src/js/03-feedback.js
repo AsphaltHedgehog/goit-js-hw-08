@@ -1,5 +1,5 @@
 
-import debounce from 'lodash.debounce';
+import throttle from 'lodash.throttle';
 
 // ===================================================
 
@@ -28,7 +28,7 @@ const onInput = function () {
   localStorage.setItem(refs.FORM_SAVED_INPUT, JSON.stringify(refs.input));
 }
 
-refs.form.addEventListener("input", debounce(onInput, 1000));
+refs.form.addEventListener("input", throttle(onInput, 500));
 
 // ========================================================
 
@@ -40,6 +40,8 @@ const submit = function (ev) {
     localStorage.removeItem(refs.FORM_SAVED_INPUT)
 
     refs.form.reset();
+  } else {
+    alert("АЛЯРМ!!!Заполните оба поля!!!АЛЯРМ")
   };
 };
 
